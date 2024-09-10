@@ -1,0 +1,50 @@
+* {
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Ephesis', cursive;
+    font-family: 'Gulzar', serif;
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+
+body {
+    direction: rtl;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 20px;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-item {
+    height: 450px;
+    width: 300px;
+    border-radius: 25px;
+    display: inline-block;
+    border: solid #0dac4f;
+    text-align: center;
+}
+
+.grid-item img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+
+.grid-item p {
+    margin-top: 10px;
+    padding: 5pxpx;
+}
+
+.button {
+    align-items: center;
+    height: 30px;
+    width: 175px;
+    background-color: #0dac4f;
+    border: 0px;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: #a2e9bf;
+}

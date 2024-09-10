@@ -1,0 +1,356 @@
+/* justify-content: space-around;
+justify-content: space-between;
+justify-content: space- 
+align-items: center;
+*/
+* {
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Ephesis', cursive;
+    font-family: 'Gulzar', serif;
+    font-family: 'Noto Sans Arabic', sans-serif;
+
+    /* box-shadow : inset 2px 2px 2px; */
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.im1 {
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    width: 200px;
+    border: 2% white;
+    border-radius: 3px 20px 30px 2px;
+    -webkit-border-radius: 3px 20px 30px 2px;
+    -moz-border-radius: 3px 20px 30px 2px;
+    -ms-border-radius: 3px 20px 30px 2px;
+    -o-border-radius: 3px 20px 30px 2px;
+}
+
+.im2 {
+    display: flex;
+    position: absolute;
+    top: 60%;
+    right: 7%;
+    width: 200px;
+    border: 50% white;
+    border-radius: 3px 20px 30px 2px;
+
+}
+
+.im3 {
+    display: flex;
+    position: absolute;
+    top: 20%;
+    right: 13%;
+    width: 150px;
+    border: 2% white;
+    border-radius: 3px 20px 30px 2px;
+    -webkit-border-radius: 3px 20px 30px 2px;
+    -moz-border-radius: 3px 20px 30px 2px;
+    -ms-border-radius: 3px 20px 30px 2px;
+    -o-border-radius: 3px 20px 30px 2px;
+}
+
+.im4 {
+    display: flex;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    width: 200px;
+    border: 5% white;
+    border-radius: 3px 20px 30px 2px;
+    -webkit-border-radius: 3px 20px 30px 2px;
+    -moz-border-radius: 3px 20px 30px 2px;
+    -ms-border-radius: 3px 20px 30px 2px;
+    -o-border-radius: 3px 20px 30px 2px;
+}
+
+.donate {
+    display: flex;
+    background-color: #0dac4f;
+    font-size: medium;
+    width: 15%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+    position: absolute;
+    top: 70%;
+    left: 43%;
+    right: 40%;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.donate.arrow {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 12px;
+    direction: rtl;
+}
+
+.catego {
+    /* flex-wrap: wrap; */
+    direction: rtl;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+}
+
+.cat {
+    display: inline-block;
+}
+
+
+
+.logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    /* Adjust the width as needed */
+    height: auto;
+}
+
+header {
+    /* Additional styles for your header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d1 {
+    flex-direction: rtl;
+    transition: duration 1s;
+    transition-delay: 1s;
+    -webkit-transition: duration 1s;
+    -moz-transition: duration 1s;
+    -ms-transition: duration 1s;
+    -o-transition: duration 1s;
+}
+
+.d1:hover {
+
+    margin-left: auto;
+
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    border: none;
+    padding: 10px 20px;
+    font-size: 10px;
+    cursor: pointer;
+    transition-duration: 0.2s ease;
+    background-color: #111a4d
+}
+
+.button:hover {
+    background-color: #0dac4f;
+}
+
+.rt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    right: 30%;
+
+
+
+    /* Optional: vertically center as well */
+}
+
+.navbar {
+
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    direction: rtl;
+    position: absolute;
+    top: 0.2;
+    left: 28%;
+    right: 35%;
+    right: 15%;
+    padding: 5px 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.navbar a {
+    flex: auto;
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    margin: auto;
+    padding: auto;
+    border: 1xp;
+    border-radius: 2px;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+
+.navbar a:hover {
+    color: #0dac4f;
+    border-bottom: 2px solid#0dac4f;
+}
+
+.sent {
+    font-size: 30حء;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    right: 30%;
+}
+
+
+.sign-in,
+.sign-up {
+    align-items: flex-start;
+    border-radius: 10px;
+    background-color: #111a4d;
+    color: #fff;
+    position: relative;
+    top: 10%;
+    border: radius 2%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* ************************************************************************************************** */
+.about-and-contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    border-top: 1px solid #ddd;
+}
+
+.about,
+.contact {
+    flex: 1;
+    padding: 1rem;
+    position: absolute;
+    bottom: 5%;
+
+}
+
+.about h2,
+.contact h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    position: absolute;
+    bottom: 5%;
+}
+
+.about p {
+    line-height: 1.5;
+    position: absolute;
+    bottom: 10%;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 10%;
+}
+
+.contact li {
+    margin-bottom: 0.5rem;
+    position: absolute;
+    bottom: 10%;
+}
+
+.contact li span {
+    display: inline-block;
+    width: 2rem;
+    margin-right: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ddd;
+}
+
+.contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .d1{
+    @font-face {
+        font-family: arabi;
+        src: url(Rubik_Bubbles\RubikBubbles-Regular.ttf) format ("truetype")
+    }
+} */

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة التسجيل</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>التسجيل في نظام التبرع الإلكتروني</h1>
+        <form>
+            <label for="user-type">اختر نوع المستخدم:</label>
+            <select id="user-type" name="user-type">
+                <option value="donor">المتبرع</option>
+                <option value="organization">الجهة المستفيدة</option>
+            </select>
+            <input type="text" name="full-name" placeholder="الاسم الكامل">
+            <input type="email" name="email" placeholder="البريد الإلكتروني">
+            <input type="password" name="password" placeholder="كلمة المرور">
+            <button type="submit">تسجيل</button>
+        </form>
+    </div>
+</body>
+</html>
